@@ -243,38 +243,3 @@ export default class cour extends Component {
     );
   }
 }
-
-{
-  /* <div className={styles.alignCard}>
-<div>
-  <Card className={styles.card}>
-    <img
-      className={styles.cardImg}
-      src={require("../../assets/courses/doc.png")}
-      alt="Card"
-    />
-    <Button>READING</Button>
-  </Card>
-</div>
-<div>
-  <Card className={styles.card}>
-    <img
-      className={styles.cardImg}
-      src={require("../../assets/courses/vid.png")}
-      alt="Card"
-    />
-    <Button>VIDEO</Button>
-  </Card>
-</div>
-<div>
-  <Card className={styles.card}>
-    <img
-      className={styles.cardImg}
-      src={require("../../assets/courses/pro.png")}
-      alt=""
-    />
-    <Button>PROJECT</Button>
-  </Card>
-</div>
-</div> */
-}

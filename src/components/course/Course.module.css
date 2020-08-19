@@ -1,0 +1,31 @@
+.dropdown_toogle {
+  width: 100%;
+  border: none;
+  height: 70px;
+  box-shadow: 1px 1px 1px 1px gray;
+  text-align: center;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+}
+
+.cardImg {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.alignCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: white;
+  border-color: white;
+  width: 100%;
+}

@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Home } from "./components/Home";
 import Sidebar from "./components/sidebar/Sidebar";
-import Course from "./components/course/Course";
+import Course from "./components/course/cour";
 import Project from "./components/project/Projects";
 import ProjectList from "./components/project/ProjectList";
 import Dataset from "./components/project/DataSet";
@@ -21,6 +21,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <BrowserRouter>
+          {/* <div className="layout"> */}
           <Sidebar sideBar={this.state.sideBar} />
           <div className="home-main">
             <Switch>
@@ -36,6 +37,7 @@ class App extends React.Component {
               <Route exact path="/add" component={AddProject} />
             </Switch>
           </div>
+          {/* </div> */}
         </BrowserRouter>
       </React.Fragment>
     );

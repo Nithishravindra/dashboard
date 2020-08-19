@@ -38,12 +38,12 @@
   margin: 5px;
 }
 
-h4 {
+/* h4 {
   color: #484a4a;
   font-weight: 400;
   /* text-shadow: grey 1px 0 3px; */
-  float: left;
-}
+/* float: left; */
+/* } */
 
 .searchbutton {
   float: left;
